@@ -1,6 +1,13 @@
-# alfred_snippets
+# snippets
 
 This is a simple script for creating my Alfred Snippet collections.
+
+Stuff to write down:
+
+* Why are text expansion snippets?
+* Why in Git?
+* Package format
+* Personal info
 
 ## Usage
 
