@@ -12,6 +12,19 @@ import zipfile
 # fmt: off
 SNIPPETS = {
     # =========================
+    # Get the current date/time
+    # =========================
+
+    # pretty, e.g. 9 April 2024
+    ";dp": "{isodate:d MMMM yyyy}",
+
+    # short, e.g. 2024-04-09
+    ";ds": "{isodate:yyyy-MM-dd}",
+
+    # e.g. 2024-04-09 10:49:12 +0100
+    ";dd": "{isodate:yyyy-MM-dd HH:mm:ss Z}",
+
+    # =========================
     # English words and phrases
     # =========================
     "ina11e": "inaccessible",
@@ -32,6 +45,11 @@ SNIPPETS = {
     "!py": "#!/usr/bin/env python3\n\n",
     "!rb": "#!/usr/bin/env ruby\n",
     "!swift": "#!/usr/bin/env swift\n",
+
+    # ============================
+    # Programming: Python snippets
+    # ============================
+    "!j": "import json\n",
 }
 # fmt: on
 
