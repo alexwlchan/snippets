@@ -193,6 +193,7 @@ SNIPPETS = {
     "!svg": read("template.svg"),
 
     "!before": read("before_and_after.html"),
+    "!html": read("empty_page.html"),
 
     "!mit": read("mit_license.txt"),
 
