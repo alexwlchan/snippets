@@ -204,6 +204,7 @@ SNIPPETS = {
     # ===================================
     # Python-related programming snippets
     # ===================================
+    "!dt": "import datetime\n",
     "!j": "import json\n",
     "!pp": "from pprint import pprint; pprint({cursor})",
 
