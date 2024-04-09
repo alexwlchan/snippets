@@ -9,6 +9,11 @@ import uuid
 import zipfile
 
 
+def read(name):
+    with open(os.path.join('expansions', name)) as infile:
+        return infile.read()
+
+
 # fmt: off
 SNIPPETS = {
     # =========================
@@ -27,7 +32,145 @@ SNIPPETS = {
     # =========================
     # English words and phrases
     # =========================
+    "a11e": "accessible",
+    "a11y": "accessibility",
+    "acc't": "account",
+    "acct": "account",
+    "afaict": "as far as I can tell",
+    "atm": "at the moment",
+    "avg": "average",
+    "bdy": "boundary",
+    "cafe": "café",
+    "cliche": "cliché",
+    "ctd": "continued",
+    "cts": "continuous",
+    "Das Ubermensch": "Das Übermensch",
+    "defn": "definition",
+    "deja vu": "déjà vu",
+    "dept.": "department",
+    "distn": "distribution",
+    "eqn": "equation",
+    "expt": "experiment",
+    "fdn": "foundation",
+    "fiance": "fiancé",
+    "fn": "function",
+    "Gdn": "Garden",
+    "gov't": "government",
+    "govt": "government",
+    "i14n": "intersectional",
+    "i18n": "internationalisation",
+    "iff": "if and only if",
     "ina11e": "inaccessible",
+    "indpt": "independent",
+    "intl.": "international",
+    "iptic": "in particular",
+    "l12n": "localisation",
+    "lmk": "let me know",
+    "mgmt": "management",
+    "mgr": "manager",
+    "naive": "naïve",
+    "natl.": "national",
+    "nbhd": "neighbourhood",
+    "nee ": "née ",
+    "o/w": "otherwise",
+    "ofc": "of course",
+    "ptic": "particular",
+    "rec'd": "recommended",
+    "reln": "relation",
+    "reqd": "required",
+    "s.t.": "such that",
+    "soln": "solution",
+    "spose": "suppose",
+    "stdlib": "standard library",
+    "thm": "theorem",
+    "w/b": "week beginning",
+    "w/e": "week ending",
+    "w/o": "without",
+    "y'day": "yesterday",
+
+    # =============================
+    # Fix my common typing mistakes
+    # =============================
+    "cunt": "count",
+    "EVentbridge": "EventBridge",
+    " ot ": " to ",
+    "thier": "their",
+    "WHy": "Why",
+
+    # ============
+    # Proper nouns
+    # ============
+    "Agnes": "Agnès",
+    "B'ham": "Birmingham",
+    "BackBlaze": "Backblaze",
+    "Bezier": "Bézier",
+    "CF": "CloudFront",
+    "CO2": "CO₂",
+    "China Mieville": "China Miéville",
+    "Cloudwatch": "CloudWatch",
+    "Ebay": "eBay",
+    "El Otro Periodico": "El Otro Periódico",
+    "Elasticache": "ElastiCache",
+    "Eventbridge": "EventBridge",
+    "Facetime": "FaceTime",
+    "FastMail": "Fastmail",
+    "Gitbook": "GitBook",
+    "Hashicorp": "HashiCorp",
+    "Maciej Ceglowski": "Maciej Cegłowski",
+    "Paypal": "PayPal",
+    "Phylopic": "PhyloPic",
+    "Postgresql": "PostgreSQL",
+    "Powerpoint": "PowerPoint",
+    "Raphaelle": "Raphaëlle",
+    "Regents Canal": "Regent’s Canal",
+    "Rubocop": "RuboCop",
+    "Sqlite": "SQLite",
+    "SQlite": "SQLite",
+    "Sean": "Seán",
+    "Sharepoint": "SharePoint",
+    "Skoda": "Škoda",
+    "Smugmug": "SmugMug",
+    "Taf": "Tâf",
+    "Textexpander": "TextExpander",
+    "Whatsapp": "WhatsApp",
+    "WikiData": "Wikidata",
+    "Wordpress": "WordPress",
+    "Youtube": "YouTube",
+    "Zoe": "Zoë",
+    "bhalaj": "bhålaj",
+    "ldn": "london",
+    "wall-e": "WALL·E",
+
+    # =================================
+    # Symbols and other bits of Unicode
+    # =================================
+    "180^": "180°",
+    "^C": "°C",
+    "^F": "°F",
+    "^deg": "°",
+    "^ft": "′",
+    "^in": "″",
+    ":+1:": "👍",
+    ":wave:": "👋",
+    ";1/2": "½",
+    ";3/4": "¾",
+    ";alt": "⌥",
+    ";approx": "≈",
+    ";bullet": "•",
+    ";cmd": "⌘",
+    ";ctrl": "⌃",
+    ";dot": "·",
+    ";eur": "€",
+    ";minus": "−",
+    ";opt": "⌥",
+    ";pi": "π",
+    ";pm": "±",
+    ";sec": "§",
+    ";shift": "⇧",
+    ";sqrt": "√",
+    ";times": "×",
+    ";tm": "™",
+    ";zwsp": "\u200b",  # zero-width space
 
     # =============
     # Personal info
@@ -37,30 +180,47 @@ SNIPPETS = {
 
     ";ale": "alexwlchan",
 
-    # =================================
-    # Programming: shebangs for scripts
-    # =================================
+    # ====================
+    # Programming snippets
+    # ====================
     "!bash": "#!/usr/bin/env bash\n\nset -o errexit\nset -o nounset\n",
     "!osa": "#!/usr/bin/env osascript\n",
     "!py": "#!/usr/bin/env python3\n\n",
     "!rb": "#!/usr/bin/env ruby\n",
     "!swift": "#!/usr/bin/env swift\n",
 
-    # ============================
-    # Programming: Python snippets
-    # ============================
+    "!rect": '<rect width="500" height="250" fill="yellow"/>',
+    "!svg": read("template.svg"),
+
+    "!before": read("before_and_after.html"),
+
+    "!mit": read("mit_license.txt"),
+
+    # Git trailer
+    # See https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/creating-a-commit-with-multiple-authors
+    ";co": "Co-authored-by:",
+
+    # ===================================
+    # Python-related programming snippets
+    # ===================================
     "!j": "import json\n",
-}
-# fmt: on
+    "!pp": "from pprint import pprint; pprint({cursor})",
 
+    "@param": "@pytest.mark.parametrize({cursor})",
 
+    "!flapi": read("flapi.py"),
 
-# fmt: off
-LONGER_SNIPPETS = {
-    # ==============================
-    # Programming: fragments of code
-    # ==============================
-    "!flapi": "flapi.py",
+    "py!aws": read("get_boto3_session.py"),
+    "py!dy": read("list_dynamodb_rows.py"),
+    "py!h": read("create_hash.py"),
+    "py!jd": read("datetime_encoder.py"),
+    "py!pth": read("get_file_paths.py"),
+    "py!sec": read("get_secrets_manager_secret.py"),
+    "py!s3": read("list_s3_objects.py"),
+
+    # I can never remember the order of args to this function,
+    # so when I start typing it, add a comment to help me out.
+    "datetime.datetime.strp": "datetime.datetime.strptime({cursor})  # date_string, format",
 }
 # fmt: on
 
@@ -95,12 +255,6 @@ if __name__ == "__main__":
         zf.write("info.plist")
 
         for shortcut, expansion in SNIPPETS.items():
-            add_snippet(zf, shortcut, expansion)
-
-        for shortcut, filename in LONGER_SNIPPETS.items():
-            with open(pathlib.Path("expansions") / filename) as f:
-                expansion = f.read()
-
             add_snippet(zf, shortcut, expansion)
 
     subprocess.check_call(["open", "Alex’s snippets.alfredsnippets"])
