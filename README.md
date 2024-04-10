@@ -2,7 +2,7 @@
 
 This repo has my (public) text expansion snippets.
 
-Text expansion apps allow me to save keystrokes when I'm typing common words -- for example, if I type `intl`, my computer expands it to `international`.
+Text expansion apps allow me to save keystrokes when I'm typing common words – for example, if I type `intl`, my computer expands it to `international`.
 That saves me 9 keystrokes.
 It may not seem like much, but I use these snippets dozens of times a day and it quickly adds up!
 
@@ -13,7 +13,7 @@ This repo has a script that creates a collection of snippets to use [in Alfred](
 I use a script rather than an in-app snippet editor because I want to share snippets between my home and work computers.
 
 Most apps sync their preferences through some sort of cloud storage, e.g. Dropbox or iCloud.
-I don't want to connect my home and work computers that way -- I try to keep them separate.
+I don't want to connect my home and work computers that way – I try to keep them separate.
 e.g. I don't log into my work email on my home computer, and I don't log in to my personal iCloud on my work laptop.
 
 By putting my snippets in a GitHub repo, I can check out the repo on both computers and get the same set of snippets, but in a way that maintains the gap between the machines.
