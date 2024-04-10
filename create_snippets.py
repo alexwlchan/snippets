@@ -94,6 +94,7 @@ SNIPPETS = {
     # =============================
     "cunt": "count",
     "EVentbridge": "EventBridge",
+    "Flcikr": "Flickr",
     " ot ": " to ",
     "thier": "their",
     "WHy": "Why",
