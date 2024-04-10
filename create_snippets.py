@@ -52,6 +52,7 @@ SNIPPETS = {
     "eqn": "equation",
     "expt": "experiment",
     "fdn": "foundation",
+    "Fdn": "Foundation",
     "fiance": "fiancé",
     "fn": "function",
     "Gdn": "Garden",
