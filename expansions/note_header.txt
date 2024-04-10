@@ -1,0 +1,3 @@
+---
+date: {isodate:yyyy-MM-dd}
+---

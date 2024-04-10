@@ -223,6 +223,11 @@ SNIPPETS = {
     # I can never remember the order of args to this function,
     # so when I start typing it, add a comment to help me out.
     "datetime.datetime.strp": "datetime.datetime.strptime({cursor})  # date_string, format",
+
+    # =================
+    # Obsidian snippets
+    # =================
+    ";nd": read("note_header.txt"),
 }
 # fmt: on
 
