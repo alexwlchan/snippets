@@ -66,6 +66,7 @@ SNIPPETS = {
     "indpt": "independent",
     "intl.": "international",
     "iptic": "in particular",
+    "Iptic": "In particular",
     "l12n": "localisation",
     "lmk": "let me know",
     "mgmt": "management",
