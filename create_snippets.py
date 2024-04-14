@@ -221,6 +221,7 @@ SNIPPETS = {
     "py!h": read("create_hash.py"),
     "py!jd": read("datetime_encoder.py"),
     "py!pth": read("get_file_paths.py"),
+    "py!pd": read("get_directories.py"),
     "py!sec": read("get_secrets_manager_secret.py"),
     "py!s3": read("list_s3_objects.py"),
 
