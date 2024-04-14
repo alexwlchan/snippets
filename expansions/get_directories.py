@@ -13,9 +13,8 @@ def get_directories_under(root="."):
     if not root.is_dir():
         raise FileNotFoundError(root)
 
-    for dirpath, dirnames, _ in root.walk():
-        for d in dirnames:
-            yield dirpath / d
+    for dirpath, _, _ in root.walk():
+        yield dirpath
 
 
 for p in get_directories_under():
