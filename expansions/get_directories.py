@@ -15,7 +15,7 @@ def get_directories_under(root="."):
 
     for dirpath, dirnames, _ in root.walk():
         for d in dirnames:
-            yield dirpath / f
+            yield dirpath / d
 
 
 for p in get_directories_under():
