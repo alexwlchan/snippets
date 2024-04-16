@@ -16,6 +16,8 @@ def read(name):
 
 # fmt: off
 SNIPPETS = {
+    "!bq": "<blockquote>{clipboard}</blockquote>",
+
     # =========================
     # Get the current date/time
     # =========================
@@ -40,6 +42,9 @@ SNIPPETS = {
     "atm": "at the moment",
     "avg": "average",
     "bdy": "boundary",
+    "Bdy": "Boundary",
+    "bdies": "boundaries",
+    "Bdies": "Boundaries",
     "cafe": "café",
     "cliche": "cliché",
     "ctd": "continued",
