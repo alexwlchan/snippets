@@ -66,7 +66,7 @@ SNIPPETS = {
     "govt": "government",
     "i14n": "intersectional",
     "i18n": "internationalisation",
-    "iff": "if and only if",
+    " iff": " if and only if",
     "ina11e": "inaccessible",
     "indpt": "independent",
     "intl.": "international",
