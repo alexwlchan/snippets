@@ -238,6 +238,11 @@ SNIPPETS = {
     # Obsidian snippets
     # =================
     ";nd": read("note_header.txt"),
+
+    # ============
+    # Misc phrases
+    # ============
+    "porque?": "¿Por qué no los dos?",
 }
 # fmt: on
 
