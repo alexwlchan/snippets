@@ -148,7 +148,7 @@ SNIPPETS = {
     "Youtube": "YouTube",
     "Zoe": "Zoë",
     "bhalaj": "bhålaj",
-    "ldn": "london",
+    " ldn": " london",
     "wall-e": "WALL·E",
 
     # =================================
