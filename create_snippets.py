@@ -76,6 +76,7 @@ SNIPPETS = {
     "lmk": "let me know",
     "mgmt": "management",
     "mgr": "manager",
+    "Mgr": "Manager",
     "naive": "naïve",
     "natl.": "national",
     "nbhd": "neighbourhood",
