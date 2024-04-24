@@ -83,7 +83,7 @@ SNIPPETS = {
     "nee ": "née ",
     "o/w": "otherwise",
     "ofc": "of course",
-    "ptic": "particular",
+    " ptic": " particular",
     "rec'd": "recommended",
     "reln": "relation",
     "reqd": "required",
