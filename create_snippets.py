@@ -225,7 +225,7 @@ SNIPPETS = {
     "py!aws": read("get_boto3_session.py"),
     "py!dy": read("list_dynamodb_rows.py"),
     "py!h": read("create_hash.py"),
-    "py!jd": read("datetime_encoder.py"),
+    "py!de": read("datetime_encoder.py"),
     "py!pth": read("get_file_paths.py"),
     "py!pd": read("get_directories.py"),
     "py!sec": read("get_secrets_manager_secret.py"),
