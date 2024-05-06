@@ -116,6 +116,7 @@ SNIPPETS = {
     "B'ham": "Birmingham",
     "BackBlaze": "Backblaze",
     "Bezier": "Bézier",
+    "Borrowbox": "BorrowBox",
     "CF": "CloudFront",
     "CO2": "CO₂",
     "China Mieville": "China Miéville",
