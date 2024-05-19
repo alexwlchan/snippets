@@ -112,6 +112,7 @@ SNIPPETS = {
     # Proper nouns
     # ============
     "Agnes": "Agnès",
+    "Anais Mitchell": "Anaïs Mitchell",
     "B'ham": "Birmingham",
     "BackBlaze": "Backblaze",
     "Bezier": "Bézier",
