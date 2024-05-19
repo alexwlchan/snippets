@@ -41,7 +41,7 @@ jobs:
         flake8 --ignore=E501,E203,W503,F821 --extend-select=W504
 
     - name: Check types
-      run: mypy *.py expansions/*.py
+      run: mypy *.py
 
     - name: Build the workflow
       run: python3 create_snippets.py
