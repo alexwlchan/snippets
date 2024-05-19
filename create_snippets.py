@@ -4,7 +4,6 @@ import hashlib
 import json
 import os
 import pathlib
-import subprocess
 import uuid
 import zipfile
 
@@ -281,5 +280,3 @@ if __name__ == "__main__":
 
         for shortcut, expansion in SNIPPETS.items():
             add_snippet(zf, shortcut, expansion)
-
-    subprocess.check_call(["open", "Alex’s snippets.alfredsnippets"])
