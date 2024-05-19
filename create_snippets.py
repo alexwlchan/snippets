@@ -9,8 +9,8 @@ import uuid
 import zipfile
 
 
-def read(name):
-    with open(os.path.join('expansions', name)) as infile:
+def read(name: str) -> str:
+    with open(os.path.join("expansions", name)) as infile:
         return infile.read()
 
 
@@ -251,7 +251,7 @@ SNIPPETS = {
 # fmt: on
 
 
-def add_snippet(zf: zipfile.ZipFile, shortcut: str, expansion: str):
+def add_snippet(zf: zipfile.ZipFile, shortcut: str, expansion: str) -> None:
     """
     Add a single snippet to a snippets bundle.
     """
@@ -273,11 +273,10 @@ def add_snippet(zf: zipfile.ZipFile, shortcut: str, expansion: str):
     zf.writestr(f"{snippet_id}.json", data=json.dumps(snippet_data))
 
 
-
 if __name__ == "__main__":
     curdir = pathlib.Path(os.getcwd()).absolute()
 
-    with zipfile.ZipFile(f"Alex’s snippets.alfredsnippets", "w") as zf:
+    with zipfile.ZipFile("Alex’s snippets.alfredsnippets", "w") as zf:
         zf.write("info.plist")
 
         for shortcut, expansion in SNIPPETS.items():
