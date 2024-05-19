@@ -91,6 +91,7 @@ SNIPPETS = {
     "s.t.": "such that",
     "soln": "solution",
     "spose": "suppose",
+    "Spose": "Suppose",
     "stdlib": "standard library",
     "thm": "theorem",
     "w/b": "week beginning",
