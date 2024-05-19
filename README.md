@@ -29,4 +29,4 @@ I configure those in the in-app editor, because I don't want to put them in a pu
 $ python3 create_snippets.py
 ```
 
-This will open the newly-created snippets collection in Alfred Preferences.
+This will create a new file `Alex’s snippets.alfredsnippets`, which you can open to add these snippets to Alfred Preferences.
