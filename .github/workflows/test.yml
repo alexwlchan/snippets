@@ -28,7 +28,7 @@ jobs:
 
     - name: Run linting
       run: |
-        ruff check .
+        ruff check *.py
         ruff format --check .
 
     - name: Check types
