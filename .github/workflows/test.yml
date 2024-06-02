@@ -21,24 +21,15 @@ jobs:
       with:
         python-version: 3.12
         cache: pip
-        cache_path: dev_requirements.txt
+        cache_dependency_path: dev_requirements.txt
 
     - name: Install dependencies
       run: pip install -r dev_requirements.txt
 
     - name: Run linting
       run: |
-        black --check .
-
-        # E501 = line too long; anything up to 100-ish is fine in my book
-        # (the "ish" is intentional; see https://www.youtube.com/watch?v=wf-BqAjZb8M)
-        #
-        # E203/W503/W504 = this is where black and flake8 conflict, see https://black.readthedocs.io/en/stable/faq.html#why-are-flake8-s-e203-and-w503-violated
-        #
-        # F821 = undefined name, which I need because there are bits in my
-        # Python expansions that are used by Alfred and which Python doesn't
-        # know what to do with, imports I expect will be elsewhere, etc.
-        flake8 --ignore=E501,E203,W503,F821 --extend-select=W504
+        ruff check *.py
+        ruff format --check .
 
     - name: Check types
       run: mypy *.py
