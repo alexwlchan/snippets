@@ -1,7 +1,7 @@
-from flickr_photos_api import FlickrPhotosApi
+from flickr_photos_api import FlickrApi
 import keyring
 
-api = FlickrPhotosApi(
+api = FlickrApi(
     api_key=keyring.get_password("flickr_api", "key"),
     user_agent="Alex Chan's personal scripts <alex@alexwlchan.net>",
 )
