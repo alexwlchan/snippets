@@ -40,7 +40,7 @@ SNIPPETS = {
     "acct": "account",
     "Acct": "Account",
     "afaict": "as far as I can tell",
-    "atm": "at the moment",
+    " atm": " at the moment",
     "avg": "average",
     "bdy": "boundary",
     "Bdy": "Boundary",
