@@ -35,6 +35,7 @@ SNIPPETS = {
     # =========================
     "a11e": "accessible",
     "a11y": "accessibility",
+    "A11y": "Accessibility",
     "acc't": "account",
     "Acc't": "Account",
     "acct": "account",
@@ -76,6 +77,7 @@ SNIPPETS = {
     "l12n": "localisation",
     "lmk": "let me know",
     "mgmt": "management",
+    "Mgmt": "Management",
     "mgr": "manager",
     "Mgr": "Manager",
     "naive": "naïve",
