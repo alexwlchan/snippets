@@ -86,6 +86,7 @@ SNIPPETS = {
     "nbhd": "neighbourhood",
     "nee ": "née ",
     "o/w": "otherwise",
+    "O/w": "Otherwise",
     "ofc": "of course",
     " ptic": " particular",
     "rec'd": "recommended",
