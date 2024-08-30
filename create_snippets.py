@@ -62,6 +62,7 @@ SNIPPETS = {
     "Fdn": "Foundation",
     "fiance": "fiancé",
     "fn": "function",
+    "Fn": "Function",
     "gdn": "garden",
     "Gdn": "Garden",
     "gov't": "government",
