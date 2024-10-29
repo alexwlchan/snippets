@@ -1,0 +1,4 @@
+root
+ ├─ subdir1/
+ │   └─ file.txt
+ └─ file.txt

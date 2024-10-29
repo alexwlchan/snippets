@@ -191,6 +191,10 @@ SNIPPETS = {
     ";tm": "™",
     ";zwsp": "\u200b",  # zero-width space
 
+    # This snippet draws a basic tree with Unicode characters, which
+    # I can copy/paste to build a more complex tree by hand.
+    "!tree": read("tree.txt"),
+
     # =============
     # Personal info
     # =============
