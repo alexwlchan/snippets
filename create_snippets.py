@@ -97,7 +97,7 @@ SNIPPETS = {
     "spose": "suppose",
     "Spose": "Suppose",
     "stdlib": "standard library",
-    "thm": "theorem",
+    " thm": " theorem",
     "w/b": "week beginning",
     "w/e": "week ending",
     "w/o": "without",
