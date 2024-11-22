@@ -67,6 +67,7 @@ SNIPPETS = {
     "Gdn": "Garden",
     "gov't": "government",
     "govt": "government",
+    "Govt": "Government",
     "i14n": "intersectional",
     "i18n": "internationalisation",
     " iff": " if and only if",
