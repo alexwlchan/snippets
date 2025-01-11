@@ -130,6 +130,7 @@ SNIPPETS = {
     "Ebay": "eBay",
     "El Otro Periodico": "El Otro Periódico",
     "Elasticache": "ElastiCache",
+    "Erdos": "Erdős",
     "Eventbridge": "EventBridge",
     "Facetime": "FaceTime",
     "FastMail": "Fastmail",
