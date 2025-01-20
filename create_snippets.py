@@ -29,6 +29,10 @@ SNIPPETS = {
 
     # e.g. 2024-04-09 10:49:12 +0100
     ";dd": "{isodate:yyyy-MM-dd HH:mm:ss Z}",
+    
+    # e.g. \[10:49]
+    # I use this for timestamped entries in my Obsidian journal
+    ";dt": r"\[{isodate:HH:mm}] ",
 
     # =========================
     # English words and phrases
