@@ -1,5 +1,5 @@
 [project]
-name = "snipperts"
+name = "snippets"
 version = "1.0"
 
 [tool.mypy]
