@@ -1,12 +1,13 @@
+from collections.abc import Iterator
 import pathlib
 
 
-def get_file_paths_under(root=".", *, suffix=""):
+def get_file_paths_under(
+    root: pathlib.Path = pathlib.Path("."), *, suffix: str = ""
+) -> Iterator[pathlib.Path]:
     """
     Generates the absolute paths to every matching file under ``root``.
     """
-    root = pathlib.Path(root)
-
     if root.exists() and not root.is_dir():
         raise ValueError(f"Cannot find files under file: {root!r}")
 
