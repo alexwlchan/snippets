@@ -9,7 +9,7 @@ def get_file_paths_under(
     Generates the absolute paths to every matching file under ``root``.
     """
     if root.exists() and not root.is_dir():
-        raise ValueError(f"Cannot find files under file: {root!r}")
+        raise ValueError(f"Cannot find files under non-directory: {root!r}")
 
     if not root.is_dir():
         raise FileNotFoundError(root)
