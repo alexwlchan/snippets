@@ -208,6 +208,9 @@ SNIPPETS = {
     ";ee": "alex@alexwlchan.net",
 
     ";ale": "alexwlchan",
+    
+    # My Mastodon server
+    ";san": "social.alexwlchan.net",
 
     # ====================
     # Programming snippets
