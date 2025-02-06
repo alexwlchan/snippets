@@ -1,10 +1,10 @@
 from collections.abc import Iterator
-import pathlib
+from pathlib import Path
 
 
 def get_file_paths_under(
-    root: pathlib.Path = pathlib.Path("."), *, suffix: str = ""
-) -> Iterator[pathlib.Path]:
+    root: Path = Path("."), *, suffix: str = ""
+) -> Iterator[Path]:
     """
     Generates the absolute paths to every matching file under ``root``.
     """
