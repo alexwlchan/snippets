@@ -33,6 +33,10 @@ SNIPPETS = {
     # e.g. \[10:49]
     # I use this for timestamped entries in my Obsidian journal
     ";dt": r"\[{isodate:HH:mm}] ",
+    
+    # e.g. 2025-02-09T09:13:58Z
+    # I use this for timestamped entries in JavaScript/JSON files
+    ";dj": "{isodatetime}",
 
     # =========================
     # English words and phrases
