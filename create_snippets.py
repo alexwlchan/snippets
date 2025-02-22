@@ -3,7 +3,6 @@
 import hashlib
 import json
 import os
-import pathlib
 import uuid
 import zipfile
 
@@ -296,8 +295,6 @@ def add_snippet(zf: zipfile.ZipFile, shortcut: str, expansion: str) -> None:
 
 
 if __name__ == "__main__":
-    curdir = pathlib.Path(os.getcwd()).absolute()
-
     with zipfile.ZipFile("Alex’s snippets.alfredsnippets", "w") as zf:
         zf.write("info.plist")
 
