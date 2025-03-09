@@ -157,6 +157,7 @@ SNIPPETS = {
     "Sharepoint": "SharePoint",
     "Skoda": "Škoda",
     "Smugmug": "SmugMug",
+    "Spitlip": "SpitLip",
     "Taf": "Tâf",
     "Textexpander": "TextExpander",
     "Tineye": "TinEye",
