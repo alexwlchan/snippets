@@ -159,6 +159,7 @@ SNIPPETS = {
     "Smugmug": "SmugMug",
     "Taf": "Tâf",
     "Textexpander": "TextExpander",
+    "Tineye": "TinEye",
     "Whatsapp": "WhatsApp",
     "WikiData": "Wikidata",
     "Wordpress": "WordPress",
