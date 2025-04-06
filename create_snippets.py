@@ -63,6 +63,8 @@ SNIPPETS = {
     "deja vu": "déjà vu",
     "dept.": "department",
     "distn": "distribution",
+    "digipres": "digital preservation",
+    "Digipres": "Digital preservation",
     "eqn": "equation",
     "expt": "experiment",
     "fdn": "foundation",
