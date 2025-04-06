@@ -58,6 +58,7 @@ SNIPPETS = {
     "cliche": "cliché",
     "ctd": "continued",
     " cts": " continuous",
+    "Cts": "Continuous",
     "Das Ubermensch": "Das Übermensch",
     "defn": "definition",
     "deja vu": "déjà vu",
