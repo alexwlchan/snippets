@@ -128,6 +128,7 @@ SNIPPETS = {
     # Proper nouns
     # ============
     "Agnes": "Agnès",
+    "Airdrop": "AirDrop",
     "Anais Mitchell": "Anaïs Mitchell",
     "B'ham": "Birmingham",
     "BackBlaze": "Backblaze",
