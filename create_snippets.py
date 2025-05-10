@@ -28,11 +28,11 @@ SNIPPETS = {
 
     # e.g. 2024-04-09 10:49:12 +0100
     ";dd": "{isodate:yyyy-MM-dd HH:mm:ss Z}",
-    
+
     # e.g. \[10:49]
     # I use this for timestamped entries in my Obsidian journal
     ";dt": r"\[{isodate:HH:mm}] ",
-    
+
     # e.g. 2025-02-09T09:13:58Z
     # I use this for timestamped entries in JavaScript/JSON files
     ";dj": "{isodatetime}",
@@ -153,6 +153,7 @@ SNIPPETS = {
     "Postgresql": "PostgreSQL",
     "Powerpoint": "PowerPoint",
     "Raphaelle": "Raphaëlle",
+    "Redmonk": "RedMonk",
     "Regents Canal": "Regent’s Canal",
     "Rubocop": "RuboCop",
     "Sqlite": "SQLite",
@@ -217,7 +218,7 @@ SNIPPETS = {
     ";ee": "alex@alexwlchan.net",
 
     ";ale": "alexwlchan",
-    
+
     # My Mastodon server
     ";san": "social.alexwlchan.net",
 
