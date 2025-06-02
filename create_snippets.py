@@ -134,7 +134,7 @@ SNIPPETS = {
     "BackBlaze": "Backblaze",
     "Bezier": "Bézier",
     "Borrowbox": "BorrowBox",
-    "CF": "CloudFront",
+    " CF": " CloudFront",
     "CO2": "CO₂",
     "China Mieville": "China Miéville",
     "Cloudwatch": "CloudWatch",
