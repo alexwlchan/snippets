@@ -261,6 +261,7 @@ SNIPPETS = {
     "py!pd": read("get_directories.py"),
     "py!sec": read("get_secrets_manager_secret.py"),
     "py!s3": read("list_s3_objects.py"),
+    "py!ej": read("edit_javascript.py"),
 
     # I can never remember the order of args to this function,
     # so when I start typing it, add a comment to help me out.
