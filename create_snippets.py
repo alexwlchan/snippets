@@ -102,6 +102,7 @@ SNIPPETS = {
     " ptic": " particular",
     "rec'd": "recommended",
     "reln": "relation",
+    "Reln": "Relation",
     "reqd": "required",
     "s.t.": "such that",
     "soln": "solution",
