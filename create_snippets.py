@@ -219,6 +219,8 @@ SNIPPETS = {
     ";ee": "alex@alexwlchan.net",
 
     ";ale": "alexwlchan",
+    
+    ";so": "Signed-off-by: Alex Chan <alexc@tailscale.com>",
 
     # My Mastodon server
     ";san": "social.alexwlchan.net",
