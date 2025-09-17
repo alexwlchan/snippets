@@ -169,6 +169,7 @@ SNIPPETS = {
     "Tineye": "TinEye",
     "Whatsapp": "WhatsApp",
     "WikiData": "Wikidata",
+    "Wireguard": "WireGuard",
     "Wordpress": "WordPress",
     "Youtube": "YouTube",
     "Zoe": "Zoë",
