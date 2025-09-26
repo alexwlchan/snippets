@@ -135,7 +135,6 @@ SNIPPETS = {
     "BackBlaze": "Backblaze",
     "Bezier": "Bézier",
     "Borrowbox": "BorrowBox",
-    " CF": " CloudFront",
     "CO2": "CO₂",
     "China Mieville": "China Miéville",
     "Cloudwatch": "CloudWatch",
@@ -220,7 +219,7 @@ SNIPPETS = {
     ";ee": "alex@alexwlchan.net",
 
     ";ale": "alexwlchan",
-    
+
     ";so": "Signed-off-by: Alex Chan <alexc@tailscale.com>",
 
     # My Mastodon server
