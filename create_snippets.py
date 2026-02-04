@@ -26,8 +26,8 @@ SNIPPETS = {
     # short, e.g. 2024-04-09
     ";ds": "{isodate:yyyy-MM-dd}",
 
-    # e.g. 2024-04-09 10:49:12 +0100
-    ";dd": "{isodate:yyyy-MM-dd HH:mm:ss Z}",
+    # e.g. 2024-04-09 10:49:12 +01:00
+    ";dd": "{isodate:yyyy-MM-dd HH:mm:ss xxx}",
 
     # e.g. \[10:49]
     # I use this for timestamped entries in my Obsidian journal
